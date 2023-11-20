@@ -8,7 +8,7 @@ retrieval.
 
 # Server Functionality 
 User Authentication:
-  ○ Users can log in with a username and password.
+  - Users can log in with a username and password.
   ○ Passwords are stored as SHA-256 salted-hashed values in an “accounts.json” file.
   ○ Successful logins are authenticated by hashing the plaintext password with the salt stored in “accounts.json”.
   ○ User sessions are tracked using a cookie with a timeout.
